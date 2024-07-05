@@ -16,6 +16,7 @@ export default function Login() {
        <Button title='Show Information' onPress={() => 
       navigation.navigate('Info')}/>
       <Button title='Open Setting' onPress={() => navigation.navigate('Outside')}/>
+        <Text>Hello from Vietnam</Text>
     </View>
   )
 }
